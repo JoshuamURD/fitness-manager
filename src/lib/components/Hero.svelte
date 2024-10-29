@@ -1,5 +1,6 @@
 <script>
   import heroImage from "$assets/Hero.jpg";
+  import Button from "$components/Button.svelte";
 </script>
 
 <section
@@ -20,5 +21,6 @@
       MyFitnessPal, Hevy and Fitbit come together and then through AI have
       analysis done on your data to help you set better goals for your fitness.
     </p>
+    <Button href="/signup">Get started</Button>
   </div>
 </section>
